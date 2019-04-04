@@ -22,5 +22,14 @@
         $counter = count($number);
         $average = array_sum($number)/$counter;
         echo 'The average of the values is ' . $average . '.<br>';
+    }
 
+    function removeDups($number)
+    {
+        $numb = array_unique($number);
+        echo 'After remove duplicate numbers ' . '<br>';
+        foreach ($numb as $num)
+        {
+            echo $num . '<br>';
+        }
     }
