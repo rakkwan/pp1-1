@@ -12,16 +12,9 @@
 
     <?php
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
-
-        function printArr($number)
-        {
-            foreach ($number as $num)
-            {
-                echo $num . "\n";
-            }
-        }
-
+        include ("functions.php");
         printArr($numbers);
+
 
     ?>
 
