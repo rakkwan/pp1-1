@@ -16,6 +16,7 @@
         printArr($numbers);
 
         largest($numbers);
+        average($numbers);
 
 
     ?>

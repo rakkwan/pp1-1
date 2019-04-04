@@ -12,7 +12,15 @@
         }
     }
 
-    function largest($numbers)
+    function largest($number)
     {
-        echo 'The largest value in the array is ' . max($numbers);
+        echo 'The largest value in the array is ' . max($number ) . '.<br>';
+    }
+
+    function average($number)
+    {
+        $counter = count($number);
+        $average = array_sum($number)/$counter;
+        echo 'The average of the values is ' . $average . '.<br>';
+
     }
