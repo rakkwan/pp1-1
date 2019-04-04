@@ -15,6 +15,8 @@
         include ("functions.php");
         printArr($numbers);
 
+        largest($numbers);
+
 
     ?>
 

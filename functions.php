@@ -8,6 +8,11 @@
     {
         foreach ($number as $num)
         {
-            echo $num . "\n";
+            echo $num . "<br>";
         }
+    }
+
+    function largest($numbers)
+    {
+        echo 'The largest value in the array is ' . max($numbers);
     }
