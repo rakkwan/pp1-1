@@ -33,3 +33,10 @@
             echo $num . '<br>';
         }
     }
+
+    function distribution($number)
+    {
+        asort($number);
+        $value = array_count_values($number);
+        print_r($value);
+    }
